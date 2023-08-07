@@ -25,62 +25,62 @@ export default function Header(props){
   </div>
   <ul id="top_menu">
     <li>
-      <a href="write-review.html" className="btn_top">
+      <Link href="/reviews-pages" className="btn_top">
         Write a Review
-      </a>
+      </Link>
     </li>
     <li>
-      <a href="companies-landing.html" className="btn_top company">
+      <Link href="/companies-landing" className="btn_top company">
         For Companies
-      </a>
+      </Link>
     </li>
     <li>
-      <a href="#sign-in-dialog" id="sign-in" className="login" title="Sign In">
+      <Link href="/login" id="sign-in" className="login" title="Sign In">
         Sign In
-      </a>
+      </Link>
     </li>
   </ul>
   {/* /top_menu */}
-  <a href="#menu" className="btn_mobile">
+  <Link href="#menu" className="btn_mobile">
     <div className="hamburger hamburger--spin" id="hamburger">
       <div className="hamburger-box">
         <div className="hamburger-inner" />
       </div>
     </div>
-  </a>
+  </Link>
   <nav id="menu" className="main-menu">
     <ul>
       <li>
         <span>
-          <a href="#0">Home</a>
+          <Link href="#0">Home</Link>
         </span>
         <ul>
           <li>
-            <a href="index.html">Home version 1</a>
+            <Link href="/Home1">Home version 1</Link>
           </li>
           <li>
-            <a href="index-3.html">Home version 2</a>
+            <Link href="/Home2">Home version 2</Link>
           </li>
           <li>
-            <a href="index-2.html">Home version 3 (GDPR)</a>
+            <Link href="/Home3">Home version 3</Link>
           </li>
         </ul>
       </li>
       <li>
         <span>
-          <a href="#0">Reviews</a>
+          <Link href="/write-review">Reviews</Link>
         </span>
         <ul>
           <li>
             <span>
-              <a href="#0">Layouts</a>
+              <Link href="layout">Layouts</Link>
             </span>
             <ul>
               <li>
-                <a href="grid-listings-filterstop.html">Grid listings 1</a>
+                <Link href="/grid-listings-filterstop">Grid listings 1</Link>
               </li>
               <li>
-                <a href="grid-listings-filterscol.html">Grid listings 2</a>
+                <Link href="/grid-listings-filterscol">Grid listings 2</Link>
               </li>
               <li>
                 <a href="row-listings-filterscol.html">Row listings</a>

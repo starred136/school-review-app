@@ -75,12 +75,6 @@ export default function WriteReview(){
             />
           </div>
           <div className="form-group">
-            <label>Add your photo (optional)</label>
-            <div className="fileupload">
-              <input type="file" name="fileupload" accept="image/*" />
-            </div>
-          </div>
-          <div className="form-group">
             <div className="checkboxes float-start add_bottom_15 add_top_15">
               <label className="container_check">
                 Eos tollit ancillae ea, lorem consulatu qui ne, eu eros eirmod

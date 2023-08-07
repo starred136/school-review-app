@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Reviews(){
@@ -97,6 +98,7 @@ export default function Reviews(){
             </div>
             {/* /row */}
             <div className="row">
+
               <div className="col-lg-9 col-9">
                 <div className="progress last">
                   <div
@@ -121,6 +123,149 @@ export default function Reviews(){
     </div>
   </div>
   {/* /reviews_summary */}
+
+  {/* ------------------------------------------------------- */}
+  <div className="container margin_60_35">
+  <div className="container margin_60_35">
+  <div className="row">
+    <div className="col-lg-9">
+      <div className="singlepost">
+        <figure>
+          <img alt="" className="img-fluid" src="img/blog-single.jpg" />
+        </figure>
+        <h2>Ei pro alia placerat theophrastus</h2>
+        
+        {/* /post meta */}
+        <div className="post-content">
+          <div className="dropcaps">
+            <p>
+              Aorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum.
+            </p>
+          </div>
+          <p>
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+            It has roots in a piece of classical Latin literature from 45 BC,
+            making it over 2000 years old. Richard McClintock, a Latin professor
+            at Hampden-Sydney College in Virginia, looked up one of the more
+            obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+            going through the cites of the word in classical literature,
+            discovered the undoubtable source. Lorem Ipsum comes from sections
+            1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes
+            of Good and Evil) by Cicero, written in 45 BC. This book is a
+            treatise on the theory of ethics, very popular during the
+            Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+            amet..", comes from a line in section 1.10.32.
+          </p>
+        </div>
+        {/* /post */}
+
+      </div>
+
+      <span>
+          <Link href="/write-review" className="btn_top">
+            Add a review
+          </Link>
+        </span> 
+       </div>
+    {/* /col */}
+    <aside className="col-lg-3">
+      <div className="widget search_blog">
+        <div className="form-group">
+          <input
+            type="text"
+            name="search"
+            id="search"
+            className="form-control"
+            placeholder="Search.."
+          />
+          <span>
+            <input type="submit" defaultValue="Search" />
+          </span>
+        </div>
+      </div>
+      {/* /widget */}
+      <div className="widget">
+        <div className="widget-title">
+          <h4>Latest Post</h4>
+        </div>
+        <ul className="comments-list">
+          <li>
+            <div className="alignleft">
+              <a href="#0">
+                <img src="img/blog-5.jpg" alt="" />
+              </a>
+            </div>
+            <small>Category - 11.08.2016</small>
+            <h3>
+              <a href="#" title="">
+                Verear qualisque ex minimum...
+              </a>
+            </h3>
+          </li>
+          <li>
+            <div className="alignleft">
+              <a href="#0">
+                <img src="img/blog-6.jpg" alt="" />
+              </a>
+            </div>
+            <small>Category - 11.08.2016</small>
+            <h3>
+              <a href="#" title="">
+                Verear qualisque ex minimum...
+              </a>
+            </h3>
+          </li>
+         
+        </ul>
+      </div>
+      {/* /widget */}
+      <div className="widget">
+        <div className="widget-title">
+          <h4>Categories</h4>
+        </div>
+        <ul className="cats">
+          <li>
+            <a href="#">
+              Food <span>(12)</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Places to visit <span>(21)</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      {/* /widget */}
+      <div className="widget">
+        <div className="widget-title">
+          <h4>Popular Tags</h4>
+        </div>
+        <div className="tags">
+          <a href="#">Food</a>
+          <a href="#">Bars</a>
+          <a href="#">Cooktails</a>
+        </div>
+      </div>
+      {/* /widget */}
+    </aside>
+    {/* /aside */}
+  </div>
+  {/* /row */}
+</div>
+
+  </div>
+  {/* ------------------------------------------------------- */}
+
   <div className="container margin_60_35">
     <div className="row">
       <div className="col-lg-8">
@@ -132,18 +277,11 @@ export default function Reviews(){
               </figure>
               <h5>Marika</h5>
             </div>
+
+
             <div className="col-md-10 review_content">
-              <div className="clearfix add_bottom_15">
-                <span className="rating">
-                  <i className="icon_star" />
-                  <i className="icon_star" />
-                  <i className="icon_star" />
-                  <i className="icon_star" />
-                  <i className="icon_star empty" />
-                  <em>4.50/5.00</em>
-                </span>
-                <em>Published 54 minutes ago</em>
-              </div>
+
+
               <h4>"Avesome Experience"</h4>
               <p>
                 Eos tollit ancillae ea, lorem consulatu qui ne, eu eros eirmod
