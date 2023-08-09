@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Register(){
@@ -67,7 +68,7 @@ export default function Register(){
         <div className="text-center add_top_10">
           Already have an acccount?{" "}
           <strong>
-            <a href="login.html">Sign In</a>
+            <Link href="/login">Sign In</Link>
           </strong>
         </div>
       </form>

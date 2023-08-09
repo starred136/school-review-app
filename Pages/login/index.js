@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 
 export default function Login(){
@@ -15,7 +16,7 @@ export default function Login(){
       <figure>
         <a href="index.html">
           <img
-            src="img/logo_sticky.svg"
+            src="assets/img/logo_sticky.svg"
             width={140}
             height={35}
             alt=""
@@ -76,7 +77,7 @@ export default function Login(){
         <div className="text-center add_top_10">
           New to Vanno?{" "}
           <strong>
-            <a href="register.html">Sign up!</a>
+            <Link href="/register">Sign up!</Link>
           </strong>
         </div>
       </form>

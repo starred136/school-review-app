@@ -1,6 +1,4 @@
 
-
-import Bootstrap from "../lib/boostrap"
 import About from "./about";
 import Document from "./_document";
 
@@ -9,12 +7,10 @@ import Document from "./_document";
 
 export default function Home({ Component, pageProps }) {
   return (
-    <>
-      <Bootstrap>
-        <Document>
-          <Component {...pageProps} />
-        </Document>
-      </Bootstrap>
+    <> 
+      <Document>
+        <Component {...pageProps} />
+      </Document> 
     </>
   )
 }
