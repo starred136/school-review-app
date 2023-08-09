@@ -126,7 +126,7 @@ export default function Reviews(){
 
   {/* ------------------------------------------------------- */}
   <div className="container margin_60_35">
-  <div className="container margin_60_35">
+  <div className="container margin_40_35">
   <div className="row">
     <div className="col-lg-9">
       <div className="singlepost">
@@ -170,11 +170,7 @@ export default function Reviews(){
 
       </div>
 
-      <span>
-          <Link href="/write-review" className="btn_top">
-            Add a review
-          </Link>
-        </span> 
+
        </div>
     {/* /col */}
     <aside className="col-lg-3">
@@ -267,6 +263,12 @@ export default function Reviews(){
   {/* ------------------------------------------------------- */}
 
   <div className="container margin_60_35">
+  <span>
+          <Link href="/write-review" className="btn_top">
+            Add a review
+          </Link>
+        </span> 
+        <br/><br/><br/>
     <div className="row">
       <div className="col-lg-8">
         <div className="review_card">

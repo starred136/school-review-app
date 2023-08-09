@@ -56,7 +56,7 @@ export default function Home1(){
       <div className="col-lg-4 col-sm-6">
         <a href="grid-listings-filterstop.html" className="grid_item">
           <figure>
-            <img src="assets/img/box_cat_home_1.jpg" alt="" />
+            <z src="assets/img/box_cat_home_1.jpg" alt="" />
             <div className="info">
               <small>122 Results</small>
               <em>

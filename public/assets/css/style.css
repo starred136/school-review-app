@@ -1241,7 +1241,7 @@ ul#additional_links li:after {
 }
 .hero_single.version_1 {
   height: 620px;
-  background: url(../img/home_section_1.jpg) top center no-repeat fixed;
+  background: url(../img/home.jpg) top center no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -2142,7 +2142,7 @@ a.box_cat_home ul li strong {
 }
 
 .call_section_3 {
-  background: #051d4d url(../img/bg_call_section.jpg) center center no-repeat fixed;
+  background: #051d4d url(../img/etudiants.jpg) center center no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
